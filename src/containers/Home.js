@@ -4,7 +4,13 @@ export default class Home extends Component{
 
     render(){
         return(
-            <div></div>
+          <Fragment>
+         <div id="title">
+             <p>SIRIUS OUTDOORS</p>
+         </div>
+                </Fragment>
+
+           
         ) 
     }
   

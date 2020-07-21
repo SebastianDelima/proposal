@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Forza';
+  src: url('Forza-Light.woff'); /* IE9 Compat Modes */
+  src: url('Forza-Light.woff') format('embedded-opentype'), /* IE6-IE8 */
+       url('Forza-Light.woff') format('woff2'), /* Super Modern Browsers */
+       url('Forza-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('Forza-Light.woff')  format('truetype'), /* Safari, Android, iOS */
+       url('Forza-Light.woff') format('svg'); /* Legacy iOS */
+}
+
+
+
+
+
+

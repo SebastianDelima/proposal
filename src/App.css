@@ -18,17 +18,22 @@ body{
   background-color: #153b3c;
 }
 
-#title{
-    justify-content: center;
+#logo{
     font-family: 'Play', sans-serif;
     color: #a89875;
-    /* font-weight: 900; */
     font-size: 10vw;
     position: relative;
     top: 50vh;
     left: 5.5vw;
 }
 
+#deer{
+  width: 100%;
+  height: 101%;
+  position: relative;
+  top: 23vh;
+  right: 5vw;
+}
 .path{
   /*display:inline;
   opacity:1;
@@ -871,17 +876,9 @@ body{
   100% {fill: #00ace9;}
  }
  
- *{
-   border-sizing: border-box;
- }
  
- #svg-container{
-   position: fixed;
-   top: 35%;
-   left: 45%;
-   transform: translate(-50%,-50%);
-   /*background: linear-gradient(-45deg,red, yellow);*/
- }
+ 
+ 
  
  #path7050{
    animation-name: move7050;

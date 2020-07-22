@@ -1,16 +1,4 @@
-import React, { Component, Fragment } from 'react';
-
-export default class Home extends Component{
- 
-    
-
-
-    render(){
-        return(
-          <Fragment >
-        
-         <div id="svg-container">
-            <svg  id="deer" viewBox="-100 100 800 800" preserveAspectRatio="xMidYMid meet">
+            <svg viewBox="-100 100 800 800" preserveAspectRatio="xMidYMid meet" width="100%" height="100%">
             <path id="path7050" class="path" d="m 187.44537,731.24092 15.72591,-20.08687 -17.17956,-0.13215 z"/>
             <path id="path7062" class="path" d="m 186.55602,711.0219 -0.92505,-28.54449 18.15934,28.28019 z"/>
             <path id="path7064" class="path" d="m 197.05666,701.24277 7.66472,-38.72007 -19.20716,18.2821 z"/>
@@ -116,12 +104,3 @@ export default class Home extends Component{
             <path id="path7237" class="path" d="m 436.60159,713.45896 -12.33467,32.70556 -8.78378,-16.63311 z"/>
             <path id="path7238" class="path" d="m 415.48314,729.53141  -15.51178,16.82 24.10867,0.18689 z"/>
             </svg>
-         
-         </div>
-                </Fragment>
-
-           
-        ) 
-    }
-  
-}

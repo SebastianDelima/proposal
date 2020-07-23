@@ -1,30 +1,18 @@
 import React, { Component, Fragment } from 'react';
 import Caceria from '../components/Caceria';
 import Camps   from '../components/Camps'
+import {  NavLink } from 'react-router-dom';
+
 
 export default class Home extends Component{
  
     constructor(){
         super()
         this.state = ({
-            loaded:  false,
-            caceria: false,
-            camps:   false
+            loaded:  false
         })
 
     }
-
-    loadCaceria = () => {
-       this.setState({
-           caceria: true
-       })
-    }
-
-    loadCamps = () => {
-        this.setState({
-            camps: true
-        })
-     }
 
      loadMain = () => {
       this.setState({
@@ -168,8 +156,8 @@ export default class Home extends Component{
             return(
                 <Fragment>
                     <container id='home-img-cont'>
-                        <div id='home-img1'onClick={() => this.loadCaceria()}>Cacería</div>
-                        <div id='home-img2'onClick={() => this.loadCamps()}>  Camps</div>
+                        <NavLink to='/caceria' id='home-img1'>Cacería</NavLink>
+                        <NavLink to='/camps'id='home-img2'>Camps</NavLink>
                     </container>
                 </Fragment>
             

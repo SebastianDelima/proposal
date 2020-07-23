@@ -5,10 +5,24 @@ export default class Home extends Component{
     constructor(){
         super()
         this.state = ({
-            loaded: false
+            loaded:  false,
+            caceria: false,
+            camps:   false
         })
 
     }
+
+    loadCaceria = () => {
+       this.setState({
+           caceria: true
+       })
+    }
+
+    loadCamps = () => {
+        this.setState({
+            camps: true
+        })
+     }
 
      loadMain = () => {
       this.setState({
@@ -144,7 +158,7 @@ export default class Home extends Component{
             return(
                 <Fragment>
                     <container id='home-img-cont'>
-                        <div id='home-img1'>Cacería</div>
+                        <div id='home-img1'onClick={(e) => this.sendFriendRequest(e)}>Cacería</div>
                         <div id='home-img2'>Camps</div>
                     </container>
                 </Fragment>

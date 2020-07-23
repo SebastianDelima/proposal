@@ -1,7 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Caceria from '../components/Caceria';
-import Camps   from '../components/Camps'
-import {  NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 export default class Home extends Component{
@@ -144,14 +142,7 @@ export default class Home extends Component{
 
 
          ) 
-        }else if(this.state.caceria){
-            return(
-              <Caceria/>
-            )
-        }else if(this.state.camps){
-            return(
-             <Camps/>
-            )
+        
         }else{
             return(
                 <Fragment>

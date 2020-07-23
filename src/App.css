@@ -32,10 +32,44 @@ body{
   flex-direction: column;
 }
 
-.home-img{
-  object-fit: cover;
-  width: 100vw;
-  height: 50vh;
+#home-img1{
+  color: #d8d3cd7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Forza;
+  font-weight: 900;
+  font-size: 4em;
+  background: 
+    linear-gradient(
+      rgba(77, 122, 97, 0.6), 
+      rgba(15, 14, 7, 0.6)
+    ),
+    url(https://cdn.pixabay.com/photo/2015/09/23/00/30/deer-952744_1280.jpg) center center no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
+#home-img2{
+  color: #d8d3cd7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Forza;
+  font-weight: 900;
+  font-size: 4em;
+  background: 
+    linear-gradient(
+      rgba(144, 29, 216, 0.45), 
+      rgba(39, 31, 31, 0.45)
+    ),
+    url(https://cdn.pixabay.com/photo/2016/02/18/22/16/tent-1208201_1280.jpg) center center no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100vw;
+    height: 50vh;
 }
 
 #deer{

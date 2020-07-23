@@ -27,6 +27,16 @@ body{
     left: 5.5vw;
 }
 
+#home-img-cont{
+  display: flex;
+  flex-direction: column;
+}
+
+.home-img{
+  width: 100vw;
+  height: 50vh;
+}
+
 #deer{
   width: 100%;
   height: 101%;

@@ -1,4 +1,6 @@
 import React, { Component, Fragment } from 'react';
+import Caceria from '../components/Caceria';
+import Camps   from '../components/Camps'
 
 export default class Home extends Component{
  
@@ -154,12 +156,20 @@ export default class Home extends Component{
 
 
          ) 
+        }else if(this.state.caceria){
+            return(
+              <Caceria/>
+            )
+        }else if(this.state.camps){
+            return(
+             <Camps/>
+            )
         }else{
             return(
                 <Fragment>
                     <container id='home-img-cont'>
-                        <div id='home-img1'onClick={(e) => this.sendFriendRequest(e)}>Cacería</div>
-                        <div id='home-img2'>Camps</div>
+                        <div id='home-img1'onClick={() => this.loadCaceria()}>Cacería</div>
+                        <div id='home-img2'onClick={() => this.loadCamps()}>  Camps</div>
                     </container>
                 </Fragment>
             

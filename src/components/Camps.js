@@ -4,7 +4,9 @@ export default class Camps extends Component {
 
     render(){
       return(
-          <div></div>
+        <Fragment>
+        <div>camps</div>
+    </Fragment>
       )
     }
 }

@@ -4,7 +4,10 @@ import React, { Component, Fragment } from 'react';
 export default class Caceria extends Component {
     render(){
         return(
-            <div></div>
+            <Fragment>
+                <div>caceria</div>
+            </Fragment>
+            
         )
       }
 }

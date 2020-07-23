@@ -2,13 +2,31 @@ import React, { Component, Fragment } from 'react';
 
 export default class Home extends Component{
  
-    
+    constructor(){
+        super()
+        this.state = ({
+            loaded: false
+        })
 
+    }
+
+     loadMain = () => {
+      this.setState({
+          loaded: true
+      })
+
+      
+    }
+
+    componentDidMount = () => {
+        setTimeout(this.loadMain, 7000)
+    }
 
     render(){
+
+        if(!this.state.loaded){
         return(
           <Fragment >
-        
          <div id="svg-container">
             <svg  id="deer" viewBox="-100 100 800 800" preserveAspectRatio="xMidYMid meet">
             <path id="path7050" class="path" d="m 187.44537,731.24092 15.72591,-20.08687 -17.17956,-0.13215 z"/>
@@ -120,8 +138,13 @@ export default class Home extends Component{
          </div>
                 </Fragment>
 
-           
-        ) 
+
+         ) 
+        }else{
+            return(
+                <div>hello</div>
+            )
+        }
     }
   
 }

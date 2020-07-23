@@ -19,7 +19,7 @@ export default class Home extends Component{
     }
 
     componentDidMount = () => {
-        setTimeout(this.loadMain, 7000)
+        setTimeout(this.loadMain, 5000)
     }
 
     render(){
@@ -145,7 +145,7 @@ export default class Home extends Component{
                 <Fragment>
                     <container id='home-img-cont'>
                         <img class='home-img' src='https://cdn.pixabay.com/photo/2015/09/23/00/30/deer-952744_1280.jpg' alt="nada"/>
-                        <img class='home-img' src='https://cdn.pixabay.com/photo/2015/09/23/00/30/deer-952744_1280.jpg' alt="nada"/>
+                        <img class='home-img' src='https://cdn.pixabay.com/photo/2016/02/18/22/16/tent-1208201_1280.jpg' alt="nada"/>
                     </container>
                 </Fragment>
             

@@ -54,6 +54,23 @@ body{
     height: 50vh;
 }
 
+.nav-bar{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+}
+
+#img-intro{
+  background: 
+    linear-gradient(
+      rgba(144, 29, 216, 0.45), 
+      rgba(39, 31, 31, 0.45)
+    ),
+    url(https://cdn.pixabay.com/photo/2016/02/18/22/16/tent-1208201_1280.jpg) center center no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
 #home-img2{
   text-decoration: none;
   color: #d8d3cd7a;

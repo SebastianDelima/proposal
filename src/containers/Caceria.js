@@ -12,11 +12,9 @@ export default class Caceria extends Component {
                     <NavLink to='/camps'>Camps</NavLink>
                 </container>
                 <container id="img-intro-cont">
-                    <div id="img-intro">en Sirius nos importa salud bienestar, en Sirius nos importa salud bienestar, en Sirius nos importa salud bienestar
-                    en Sirius nos importa salud bienestaren Sirius nos importa salud bienestaren Sirius nos importa salud bienestaren Sirius nos importa salud bienestar
-                    en Sirius nos importa salud bienestaren Sirius nos importa salud bienestaren Sirius nos importa salud bienestaren Sirius nos importa salud bienestar
-                    en Sirius nos importa salud bienestaren Sirius nos importa salud bienestaren Sirius nos importa salud bienestaren Sirius nos importa salud bienestar</div>
-                    <p id="safari-text">Safaris</p>
+                    <div id="img-intro">En Sirius Outdoors nos compremetemos a ofrecer el mejor servico por nos 
+                                        asociamos con unos de los mejores ranchos de caceria en Africa. Abajo puedes explorar 
+                                        cada una de las opciones que hemos personalizado para cada necesidad.</div>
                 </container>
                 <container id='safaries'>
                     <NavLink to='/' class='all-safaries' id='one'> Safari 1</NavLink>

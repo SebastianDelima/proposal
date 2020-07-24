@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './containers/Home.js'
 import {Switch, Route} from 'react-router-dom'
-import Caceria from './components/Caceria'
+import Caceria from './containers/Caceria'
 import Camps from './components/Camps'
 import './App.css';
 

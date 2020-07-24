@@ -62,15 +62,13 @@ body{
 }
 
 #img-intro{
-  background: 
-    linear-gradient(
-      rgba(153, 125, 31, 0.45), 
-      rgba(40, 73, 78, 0.45)
-    ),
-    url(https://cdn.pixabay.com/photo/2020/05/28/17/47/impala-5232026_1280.jpg) center center no-repeat;
-    background-size: cover;
-    object-fit: cover;
+
+  font-size: 1.2em;
+  color: #f5f5dc99;
+  font-family: Forza;
+
 }
+
 #home-img2{
   text-decoration: none;
   color: #d8d3cd7a;
@@ -104,7 +102,8 @@ body{
   flex-direction: column;
 }
 .all-safaries{
-  height: 11vh;
+  font-family: Forza;
+  height: 20vh;
   color: rgba(255, 255, 255, 0.767);
 }
 
@@ -122,7 +121,7 @@ body{
 #two{
   background: 
     linear-gradient(
-      rgba(144, 29, 216, 0.45), 
+      rgba(29, 134, 90, 0.45), 
       rgba(39, 31, 31, 0.45)
     ),
     url(https://cdn.pixabay.com/photo/2015/03/03/19/09/giraffe-657773_1280.jpg) center center no-repeat;
@@ -133,7 +132,7 @@ body{
 #three{
   background: 
     linear-gradient(
-      rgba(144, 29, 216, 0.45), 
+      rgba(64, 63, 126, 0.45), 
       rgba(39, 31, 31, 0.45)
     ),
     url(https://cdn.pixabay.com/photo/2014/11/03/17/40/leopard-515509_1280.jpg) center center no-repeat;
@@ -144,7 +143,7 @@ body{
 #four{
   background: 
     linear-gradient(
-      rgba(144, 29, 216, 0.45), 
+      rgba(105, 36, 48, 0.45), 
       rgba(39, 31, 31, 0.45)
     ),
     url(https://cdn.pixabay.com/photo/2017/04/11/21/34/giraffe-2222908_1280.jpg) center center no-repeat;
@@ -155,7 +154,7 @@ body{
 #five{
   background: 
     linear-gradient(
-      rgba(144, 29, 216, 0.45), 
+      rgba(66, 146, 50, 0.45), 
       rgba(39, 31, 31, 0.45)
     ),
     url(https://cdn.pixabay.com/photo/2017/12/28/07/44/zebra-3044577_1280.jpg) center center no-repeat;

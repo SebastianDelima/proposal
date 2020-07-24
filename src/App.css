@@ -64,10 +64,10 @@ body{
 #img-intro{
   background: 
     linear-gradient(
-      rgba(144, 29, 216, 0.45), 
-      rgba(39, 31, 31, 0.45)
+      rgba(153, 125, 31, 0.45), 
+      rgba(40, 73, 78, 0.45)
     ),
-    url(https://cdn.pixabay.com/photo/2016/02/18/22/16/tent-1208201_1280.jpg) center center no-repeat;
+    url(https://cdn.pixabay.com/photo/2020/05/28/17/47/impala-5232026_1280.jpg) center center no-repeat;
     background-size: cover;
     object-fit: cover;
 }
@@ -99,6 +99,69 @@ body{
   right: 4vw;
 }
 
+#safaries{
+  display: flex;
+  flex-direction: column;
+}
+.all-safaries{
+  height: 11vh;
+  color: rgba(255, 255, 255, 0.767);
+}
+
+#one{
+  background: 
+    linear-gradient(
+      rgba(144, 29, 216, 0.45), 
+      rgba(39, 31, 31, 0.45)
+    ),
+    url(https://cdn.pixabay.com/photo/2014/03/04/15/10/elephant-279505_1280.jpg) center center no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+#two{
+  background: 
+    linear-gradient(
+      rgba(144, 29, 216, 0.45), 
+      rgba(39, 31, 31, 0.45)
+    ),
+    url(https://cdn.pixabay.com/photo/2015/03/03/19/09/giraffe-657773_1280.jpg) center center no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+#three{
+  background: 
+    linear-gradient(
+      rgba(144, 29, 216, 0.45), 
+      rgba(39, 31, 31, 0.45)
+    ),
+    url(https://cdn.pixabay.com/photo/2014/11/03/17/40/leopard-515509_1280.jpg) center center no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+#four{
+  background: 
+    linear-gradient(
+      rgba(144, 29, 216, 0.45), 
+      rgba(39, 31, 31, 0.45)
+    ),
+    url(https://cdn.pixabay.com/photo/2017/04/11/21/34/giraffe-2222908_1280.jpg) center center no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+#five{
+  background: 
+    linear-gradient(
+      rgba(144, 29, 216, 0.45), 
+      rgba(39, 31, 31, 0.45)
+    ),
+    url(https://cdn.pixabay.com/photo/2017/12/28/07/44/zebra-3044577_1280.jpg) center center no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
 
 .path{
   /*display:inline;

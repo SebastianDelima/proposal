@@ -16,10 +16,14 @@ export default class Caceria extends Component {
                     en Sirius nos importa salud bienestaren Sirius nos importa salud bienestaren Sirius nos importa salud bienestaren Sirius nos importa salud bienestar
                     en Sirius nos importa salud bienestaren Sirius nos importa salud bienestaren Sirius nos importa salud bienestaren Sirius nos importa salud bienestar
                     en Sirius nos importa salud bienestaren Sirius nos importa salud bienestaren Sirius nos importa salud bienestaren Sirius nos importa salud bienestar</div>
-                    <p id="safaris">Safaris</p>
+                    <p id="safari-text">Safaris</p>
                 </container>
-                <container>
-                    
+                <container id='safaries'>
+                    <NavLink to='/' class='all-safaries' id='one'> Safari 1</NavLink>
+                    <NavLink to='/' class='all-safaries' id='two'> Safari 2</NavLink>
+                    <NavLink to='/' class='all-safaries' id='three'>Safari 3</NavLink>
+                    <NavLink to='/' class='all-safaries' id='four'>Safari 4</NavLink>
+                    <NavLink to='/' class='all-safaries' id='five'>Safari 5</NavLink>
                 </container>
             </Fragment>
             

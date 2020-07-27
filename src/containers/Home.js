@@ -29,6 +29,7 @@ export default class Home extends Component{
         if(!this.state.loaded){
         return(
           <Fragment >
+              <div id="loading-background">
          <div id="svg-container">
             <svg  id="deer" viewBox="-100 100 800 800" preserveAspectRatio="xMidYMid meet">
             <path id="path7050" class="path" d="m 187.44537,731.24092 15.72591,-20.08687 -17.17956,-0.13215 z"/>
@@ -136,11 +137,9 @@ export default class Home extends Component{
             <path id="path7237" class="path" d="m 436.60159,713.45896 -12.33467,32.70556 -8.78378,-16.63311 z"/>
             <path id="path7238" class="path" d="m 415.48314,729.53141  -15.51178,16.82 24.10867,0.18689 z"/>
             </svg>
-         
+         </div>
          </div>
                 </Fragment>
-
-
          ) 
         
         }else{
@@ -151,7 +150,6 @@ export default class Home extends Component{
                         <NavLink to='/camps'id='home-img2'>Camps</NavLink>
                     </container>
                 </Fragment>
-            
             )
         }
     }

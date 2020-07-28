@@ -6,7 +6,7 @@ export default class NavBar extends Component {
 
     render(){
         return(
-            <div className='contact-footer'>
+            <div id='contact-footer'>
                     
                 </div>
         )

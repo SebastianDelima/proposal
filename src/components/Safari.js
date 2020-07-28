@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import NavBar from './NavBar';
 import Carousel from 'react-bootstrap/Carousel'
 
+
 export default class Safari extends Component {
 
     render(){
@@ -35,7 +36,7 @@ export default class Safari extends Component {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://lp-cms-production.imgix.net/image_browser/masai-mara-shutterstockRF_778811002.jpg?format=auto"
+                    src="Picture.js"
                     alt="First slide"
                     />
                     <Carousel.Caption>

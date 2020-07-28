@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import NavBar from './NavBar';
 import Carousel from 'react-bootstrap/Carousel'
+import Footer from '../components/ContactFooter'
+
 
 
 export default class Safari extends Component {
@@ -36,7 +38,7 @@ export default class Safari extends Component {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="Picture.js"
+                    src="https://lp-cms-production.imgix.net/image_browser/masai-mara-shutterstockRF_778811002.jpg?format=auto"
                     alt="First slide"
                     />
                     <Carousel.Caption>
@@ -44,6 +46,8 @@ export default class Safari extends Component {
                     </Carousel.Caption>
                 </Carousel.Item>
                     </Carousel>
+                    <div>Safari 1</div>
+                    <Footer/>
             </Fragment>
             )
         // Safari 2
@@ -51,32 +55,152 @@ export default class Safari extends Component {
             return(
                 <Fragment>
                     <NavBar/>
-                <div>Safari 2</div>
-            </Fragment>
+                    <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://lp-cms-production.imgix.net/image_browser/masai-mara-shutterstockRF_778811002.jpg?format=auto"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://lp-cms-production.imgix.net/image_browser/masai-mara-shutterstockRF_778811002.jpg?format=auto"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="Picture.js"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                    </Carousel>            </Fragment>
             )
         // Safari 3
         }else if(id === 3){
             return(
                 <Fragment>
                     <NavBar/>
-                <div>Safari 3</div>
-            </Fragment>
+                    <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://lp-cms-production.imgix.net/image_browser/masai-mara-shutterstockRF_778811002.jpg?format=auto"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://lp-cms-production.imgix.net/image_browser/masai-mara-shutterstockRF_778811002.jpg?format=auto"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="Picture.js"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                    </Carousel>            </Fragment>
             )
         // Safari 4
         }else if(id === 4){
             return(      
                 <Fragment>
                     <NavBar/>
-                <div>Safari 4</div>
-            </Fragment>
+                    <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://lp-cms-production.imgix.net/image_browser/masai-mara-shutterstockRF_778811002.jpg?format=auto"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://lp-cms-production.imgix.net/image_browser/masai-mara-shutterstockRF_778811002.jpg?format=auto"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="Picture.js"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                    </Carousel>            </Fragment>
             )
         // Safari 5
         }else if(id === 5){
             return(
                 <Fragment>
                     <NavBar/>
-                <div>Safari 5</div>
-            </Fragment>
+                    <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://lp-cms-production.imgix.net/image_browser/masai-mara-shutterstockRF_778811002.jpg?format=auto"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://lp-cms-production.imgix.net/image_browser/masai-mara-shutterstockRF_778811002.jpg?format=auto"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="Picture.js"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                    </Carousel>            </Fragment>
             )
         }
       

@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { NavLink } from 'react-router-dom';
+import Footer from '../components/ContactFooter'
 import NavBar from '../components/NavBar'
 
 export default class Caceria extends Component {
@@ -19,6 +20,7 @@ export default class Caceria extends Component {
                     <NavLink to='/safari/4' className='all-safaries' id='four'>Safari 4</NavLink>
                     <NavLink to='/safari/5' className='all-safaries' id='five'>Safari 5</NavLink>
                 </container>
+                <Footer/>
             </Fragment>
             
         )

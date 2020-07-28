@@ -5,6 +5,7 @@ import Caceria from './containers/Caceria'
 import Camps from './containers/Camps'
 import Safari from './components/Safari'
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

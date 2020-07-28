@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import NavBar from './NavBar';
+import Carousel from 'react-bootstrap/Carousel'
 
 export default class Safari extends Component {
 
@@ -10,7 +11,19 @@ export default class Safari extends Component {
             return(
                 <Fragment>
                     <NavBar/>
-                <div>Safari 1</div>
+                    <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://lp-cms-production.imgix.net/image_browser/masai-mara-shutterstockRF_778811002.jpg?format=auto"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                   
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                    </Carousel>
             </Fragment>
             )
         // Safari 2

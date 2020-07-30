@@ -146,8 +146,27 @@ body{
   width: 30vw;
 }
 
+.back-img{
+  font-family: Forza;
+}
+
 .back-img.one{
-  background-color: green;
+  background-color: rgba(0, 128, 0, 0.589);
+  /* background: url(./components/Saf-lodge.jpg); */
+}
+
+.back-img.two{
+  background-color: rgba(0, 109, 128, 0.705);
+  /* background: url(./components/Saf-lodge.jpg); */
+}
+
+.back-img.three{
+  background-color: rgba(75, 35, 71, 0.753);
+  /* background: url(./components/Saf-lodge.jpg); */
+}
+
+.back-img.four{
+  background-color: rgba(128, 119, 0, 0.733);
   /* background: url(./components/Saf-lodge.jpg); */
 }
 

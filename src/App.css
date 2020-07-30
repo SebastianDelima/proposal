@@ -43,6 +43,18 @@ body{
   flex-direction: column;
 }
 
+#Saf-title{
+  font-size: 50px;
+}
+
+.Saf-sub{
+  font-size: 60px;
+}
+
+.paragraph{
+  font-family: Forza;
+}
+
 #home-img1{
   text-decoration: none;
   color: #d8d3cd7a;
@@ -67,8 +79,8 @@ body{
   font-family: Forza;
   font-size: 1.2em;
   font-weight: 900;
-  color: white;
   text-decoration: none;
+  color: gray;
   margin-top: 15%;
 }
 
@@ -76,20 +88,28 @@ body{
   margin-top: 10%;
   width: 15vw;
   height: 10vh;
+  background: url(./components/s-logo.jpg);
+  object-fit: cover;
 }
+
+.nav-text.two{
+  padding-left: 5vw;
+}
+
 .nav-bar{
+  font-size: 13px;
   text-decoration: none;
-  background: url(https://cdn.pixabay.com/photo/2012/04/13/21/29/camouflage-33708_1280.png);
+  color: gray;
   object-fit: cover;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 20vh;
 }
 
-#img-intro{
-
+#intro{
+  
   font-size: 1.2em;
-  color: #f5f5dc99;
+  color: #05050099;
   font-family: Forza;
 
 }
@@ -120,6 +140,15 @@ body{
   position: relative;
   top: 15vh;
   right: 4vw;
+}
+
+.nav-text{
+  width: 30vw;
+}
+
+.back-img.one{
+  background-color: green;
+  /* background: url(./components/Saf-lodge.jpg); */
 }
 
 #safaries{

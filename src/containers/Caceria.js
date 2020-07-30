@@ -9,9 +9,9 @@ export default class Caceria extends Component {
             <Fragment>
                 <NavBar/>
                 <container id="img-intro-cont">
-                    <div id="img-intro">En Sirius Outdoors nos compremetemos a ofrecer el mejor servico por nos 
-                                        asociamos con unos de los mejores ranchos de caceria en Africa. Abajo puedes explorar 
-                                        cada una de las opciones que hemos personalizado para cada necesidad.</div>
+                    <div id="intro">En Sirius Outdoors nos obsesionamos con el cliente, por eso nos 
+                                        asociamos con los mejores ranchos de cacería en África. Abajo puedes explorar 
+                                        cada opcion personalizada pensada para ofrecer la experiencia que te mereces.</div>
                 </container>
                 <container id='safaries'>
                     <NavLink to='/safari/1' className='all-safaries' id='one'> Safari 1</NavLink>

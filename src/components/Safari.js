@@ -67,6 +67,7 @@ export default class Safari extends Component {
                         </p>
                         </div>
 
+                        <div className="back-img one">
                         <p className="Saf-sub">Alojamiento?</p>
                         
                         <p>
@@ -77,6 +78,9 @@ export default class Safari extends Component {
                         - Con vista 
                         a un bordo que atrae a fauna local mientras se disfruta de un excelente trato.
                         </p>
+                        </div>
+
+                        <div className="back-img one">
                         <p className="Saf-sub">Caceria?</p>
 
                         <p className="paragraph">
@@ -105,6 +109,7 @@ export default class Safari extends Component {
                         Staff gratuities.
                         Seguro medico y seguro de viaje.
                         </p>
+                       </div>
 
                     <Footer/>
 

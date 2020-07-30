@@ -89,7 +89,7 @@ body{
   width: 15vw;
   height: 10vh;
   background: url(./components/s-logo.jpg);
-  object-fit: cover;
+ object-fit: cover;
 }
 
 .nav-text.two{

@@ -67,7 +67,7 @@ export default class Safari extends Component {
                         </p>
                         </div>
 
-                        <div className="back-img one">
+                        <div className="back-img two">
                         <p className="Saf-sub">Alojamiento?</p>
                         
                         <p>
@@ -80,7 +80,7 @@ export default class Safari extends Component {
                         </p>
                         </div>
 
-                        <div className="back-img one">
+                        <div className="back-img three">
                         <p className="Saf-sub">Caceria?</p>
 
                         <p className="paragraph">

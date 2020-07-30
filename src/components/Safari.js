@@ -58,8 +58,10 @@ export default class Safari extends Component {
                         Ubicado en Namibia, en un rancho de 31,000 acres, además de su convenio
                         para aprovechar más de 250,000 acres en Namibia y Botswana. 
                         <br></br>
+                        <br></br>
                         El rancho principal está a 2 horas y media del aeropuerto de Windhoek. 
-
+                        <br></br>
+                        <br></br>
                         Grupo de guías, cazador profesional y amplio staff. 
                         La temporada de Caza es del 1 de febrero al 31 de noviembre.
                         Nambia es uno de los países más turistícos de África. 
@@ -72,9 +74,15 @@ export default class Safari extends Component {
                         
                         <p>
                         - Arquitectura estilo africana, boutique y con todas las comodidades
+                        <br></br>
+                    
                         - Aire acondicionado, wifi, baño particular, room service, alberca, 
                         bar y fogata.
+                        <br></br>
+                    
                         - Bungalos boutique rústicos pero lujosos.
+                        <br></br>
+             
                         - Con vista 
                         a un bordo que atrae a fauna local mientras se disfruta de un excelente trato.
                         </p>

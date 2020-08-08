@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { NavLink } from 'react-router-dom';
 import Footer from '../components/ContactFooter'
 import NavBar from '../components/NavBar'
+import Video from '../components/Video'
 
 export default class Caceria extends Component {
     render(){
@@ -10,6 +11,7 @@ export default class Caceria extends Component {
                 <NavBar/>
                 <container id="img-intro-cont">
                     <div id="intro">
+                       
                         <blockquote className="p-brick">
                         En Sirius Outdoors nos obsesionamos con el cliente,
                         por eso nos asociamos con los mejores ranchos de 

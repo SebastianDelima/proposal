@@ -120,8 +120,10 @@ body{
 .p-brick{
   width: 73%;
   position: relative;
-  left: 14%;
+  top: 12%;
+  left: 13%;
   text-align: justify;
+  color: white;
 }
 
 #home-img2{

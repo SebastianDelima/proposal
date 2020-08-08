@@ -7,17 +7,14 @@ export default class NavBar extends Component {
     render(){
         return(
             <Fragment>
-                <div id="nav-icon"></div>
-            <container className='nav-bar'>
-
+                <container className='nav-bar'>
+                    {/* <NavLink to='/home' id="nav-icon"></NavLink> */}
                     <NavLink className="nav-text" to='/'>Directorio</NavLink>
                     <NavLink className="nav-text" to='/about'>Nosotros</NavLink>
                     <NavLink className="nav-text two" to='/camps'>Camps</NavLink>
                     <NavLink className="nav-text two" to='/camps'>More</NavLink>
                 </container>
-                
-                
-                </Fragment>
+            </Fragment>
                 
         )
     }

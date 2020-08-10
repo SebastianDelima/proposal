@@ -64,11 +64,7 @@ body{
   font-family: Forza;
   font-size: 4em;
   background: 
-    linear-gradient(
-      rgba(2, 117, 248, 0.418), 
-      rgba(77, 69, 10, 0.301)
-    ),
-    url(Copy\ of\ DSC_0437.JPG) center center no-repeat;
+    url(./allimgs/SIRIUS_People_01.jpg) center center no-repeat;
     background-size: cover;
     object-fit: cover;
     width: 100vw;
@@ -89,6 +85,8 @@ body{
   width: 15vw;
   height: 10vh;
   object-fit: cover;
+  background: url(./allimgs/SIRIUS_VERDE_logo.jpg);
+  
 }
 
 .nav-text.two{
@@ -103,6 +101,7 @@ body{
   display: flex;
   justify-content: space-evenly;
   height: 20vh;
+  /* background: url(./allimgs/SIRIUS_VERDE_logo.jpg); */
 }
 
 #intro{
@@ -112,7 +111,7 @@ body{
   font-size: 1.5em;
   color: #050500;
   font-family: Forza;
-  background: url(https://cdn.pixabay.com/photo/2012/04/13/21/29/camouflage-33708_960_720.png)
+  /* background: url(https://cdn.pixabay.com/photo/2012/04/13/21/29/camouflage-33708_960_720.png) */
   ;
 
 }
@@ -123,7 +122,7 @@ body{
   top: 12%;
   left: 13%;
   text-align: justify;
-  color: white;
+  color: rgb(3, 0, 0);
 }
 
 #home-img2{
@@ -188,59 +187,49 @@ body{
   flex-direction: column;
 }
 .all-safaries{
-  font-family: Forza;
-  height: 50vh;
+  margin: 0px 20px;
+    font-family: Forza;
+    width: 90%;
+    height: 32vh;
   color: rgba(255, 255, 255, 0.767);
 }
 
 #one{
   background:
-    url(https://cdn.pixabay.com/photo/2012/03/04/00/16/abstract-21841_960_720.jpg) center center no-repeat;
-    background-size: cover;
+    url(./components/images/Safari1.jpg) center center no-repeat;
+    background-size: contain;
     text-decoration: none;
 }
 
 #two{
   background: 
-    linear-gradient(
-      rgba(29, 134, 90, 0.45), 
-      rgba(39, 31, 31, 0.45)
-    ),
-    url(https://cdn.pixabay.com/photo/2015/03/03/19/09/giraffe-657773_1280.jpg) center center no-repeat;
-    background-size: cover;
+   
+    url(./components/images/Safari2.jpg) center center no-repeat;
+    background-size: contain;
     text-decoration: none;
 }
 
 #three{
   background: 
-    linear-gradient(
-      rgba(64, 63, 126, 0.45), 
-      rgba(39, 31, 31, 0.45)
-    ),
-    url(https://cdn.pixabay.com/photo/2014/11/03/17/40/leopard-515509_1280.jpg) center center no-repeat;
-    background-size: cover;
+    
+    url(./components/images/Safari3.jpg) center center no-repeat;
+    background-size: contain;
     text-decoration: none;
 }
 
 #four{
   background: 
-    linear-gradient(
-      rgba(105, 36, 48, 0.45), 
-      rgba(39, 31, 31, 0.45)
-    ),
-    url(https://cdn.pixabay.com/photo/2017/04/11/21/34/giraffe-2222908_1280.jpg) center center no-repeat;
-    background-size: cover;
+    
+    url(./components/images/Safari4.jpg) center center no-repeat;
+    background-size: contain;
     text-decoration: none;
 }
 
 #five{
   background: 
-    linear-gradient(
-      rgba(66, 146, 50, 0.45), 
-      rgba(39, 31, 31, 0.45)
-    ),
-    url(https://cdn.pixabay.com/photo/2017/12/28/07/44/zebra-3044577_1280.jpg) center center no-repeat;
-    background-size: cover;
+    
+    url(./components/images/Safari5.jpg) center center no-repeat;
+    background-size: contain;
     text-decoration: none;
 }
 

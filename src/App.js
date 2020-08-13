@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './containers/Home.js'
-import {Switch, Route} from 'react-router-dom'
-import Caceria from './containers/Caceria'
-import Camps from './containers/Camps'
-import Safari from './components/Safari'
+import Home from './containers/Home.js';
+import {Switch, Route} from 'react-router-dom';
+import Caceria from './containers/Caceria';
+import Camps from './containers/Camps';
+import Safari from './components/Safari';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

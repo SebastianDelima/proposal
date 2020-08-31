@@ -7,7 +7,7 @@ export default class NavBar extends Component {
     render(){
         return(
             <Fragment>
-                <div id="nav-icon"></div>
+                <img src=''/>
                 <container className='nav-bar'>
                     {/* <NavLink to='/home' id="nav-icon">ff</NavLink> */}
                     <NavLink className="nav-text" to='/'>Directorio</NavLink>

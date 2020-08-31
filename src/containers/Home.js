@@ -148,7 +148,15 @@ export default class Home extends Component{
                     <container id='home-img-cont'>
                         <NavLink to='/caceria' id='home-img1'>Cacería</NavLink>
                         <NavLink to='/camps'id='home-img2'>Camps</NavLink>
+                        <div className="vertical-about">
+                        <div>SIRIUS</div>
+                        <div>Nosotros</div>
+                        <div>Como funciona?</div>
+                        <div>copyrigth Sirius Oiutdoors | developed by Sebastian De Lima</div>
+                        <div>icon</div>
+                    </div>
                     </container>
+                    
                 </Fragment>
             )
         }
